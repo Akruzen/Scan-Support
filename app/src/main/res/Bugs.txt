@@ -1,0 +1,21 @@
+
+/* ------------------------------------- v1.0.1 ---------------------------------- */
+
+BUGS FOUND:
+
+* Text in Product details screen clipping.
+* Complaints text repeats if edited by pressing back button.
+* View not scrollable when swiped besides next button.
+
+/* ------------------------------------- v1.0.2 ---------------------------------- */
+
+BUGS FIXED:
+
+* Text in Product details screen clipping:  set gravity of text view to "fill"
+* Complaints text does not repeat if edited by pressing back button. It gets appended. Emptied the strings before proceeding to next screen.
+
+CHANGELOG:
+
+* Changed the "Select a Product" text view to "Select a Product Category" text view in the main screen.
+* Added Showcase Views to Settings, About Us and Submit Buttons
+* Removed unnecessary linear layouts near next buttons.
